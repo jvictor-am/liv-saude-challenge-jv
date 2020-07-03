@@ -5,6 +5,8 @@ import { ToastContainer } from 'react-toastify';
 import GlobalStyle from './styles/global';
 import Header from './components/Header';
 
+import './config/ReactotronConfig';
+
 import Routes from './routes';
 
 export default function App() {

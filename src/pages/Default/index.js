@@ -33,13 +33,11 @@ export default function Default() {
       try {
         const user = await api.get(`${username}`);
 
-        console.log(user);
-
-        const response = await api.get(`${username}/repos`);
+        const response = await api.get(`${username}/repos?per_page=100`);
 
         const data = response;
 
-        console.log(data.data);
+        console.tron.log(data.data);
 
         setRepositories(data.data);
         setOwner(user.data);

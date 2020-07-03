@@ -37,7 +37,7 @@ export default createGlobalStyle`
 }
 
   .Toastify__toast--error {
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 4px;
   color: #fff;
   /* background-color: #ff3434; */
@@ -45,10 +45,9 @@ export default createGlobalStyle`
 }
 
 .Toastify__toast--success {
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 4px;
   color: #fff;
-  font-weight: bold;
   /* background-color: #30A14E; */
   background-color: #40C463;
 }
@@ -58,6 +57,7 @@ export default createGlobalStyle`
   opacity:1
 }
 .Toastify__progress-bar {
+  background-color: #F0F0F5;
   height: 4px;
 }
 

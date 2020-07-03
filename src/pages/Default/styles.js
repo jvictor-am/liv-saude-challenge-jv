@@ -13,7 +13,7 @@ export const User = styled.div`
   justify-content: center;
 
   img {
-    width: 100px;
+    width: 120px;
     border-radius: 8px;
     margin: 20px;
   }
@@ -206,7 +206,7 @@ export const List = styled.ul`
   .forks,
   .stars {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 `;

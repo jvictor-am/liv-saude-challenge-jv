@@ -8,8 +8,9 @@ export const Container = styled.header`
 `;
 
 export const Aside = styled.div`
+  font-family: Alegreya Sans, sans-serif;
   /* font-family: Anton, sans-serif; */
-  font-family: Acme, sans-serif;
+  /* font-family: Acme, sans-serif; */
   font-size: 32px;
   font-weight: 700;
   align-items: center;
