@@ -37,8 +37,6 @@ export default function Default() {
 
         const data = response;
 
-        console.tron.log(data.data);
-
         setRepositories(data.data);
         setOwner(user.data);
         setSpin(false);

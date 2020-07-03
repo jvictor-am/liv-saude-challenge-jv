@@ -6,7 +6,7 @@ import Default from '../pages/Default';
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/:username" component={Default} />
+      <Route exact path="/:username" component={Default} />
     </Switch>
   );
 }
